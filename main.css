@@ -1,0 +1,121 @@
+/*
+* Body
+*/
+body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+* Header
+*/
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.header_logo{
+    width: 80px;
+    margin-right: 1em;
+    padding: 0;
+}
+.header_title{
+    font-size: 4em;
+    margin: 0;
+}
+
+/*
+* NAV BAR
+*/
+.nav_list{
+    list-style-type: none;
+    display: flex;
+    line-height: 48px;
+    font-size: 1.5em;
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_item {
+    padding: 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: black;
+}
+
+/*
+* MAIN CONTENT
+*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+* INTRO
+*/
+.intro img{
+    float: left;
+    margin-right: 1em;
+}
+
+/*
+* PROJECTS
+*/
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.project1 {
+    background-image: url(images/tradingCard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(220, 220, 220);
+}
+
+.project2 {
+    background-image: url(images/pixelArt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(220, 220, 220);
+}
+
+.description {
+    background-color: rgba(56, 56, 56, 0.75);
+    max-height: 40%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+/*
+* FOOTER
+*/
+
+.social_media {
+    list-style-type: none;
+    display: flex;
+    width: 30%;
+    margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    padding: 0;
+}
+
+.social_media li {
+    margin-left: auto;
+    margin-right: auto;
+}

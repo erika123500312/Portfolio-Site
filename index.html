@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--Font Awesome stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--Use main.js when you learn more about how to incorporate js into website-->
+    <!--<script src="main.js"></script>-->
+</head>
+<body>
+    <header class="header">
+        <img class="header_logo" src="images/logo.png" alt="Brand Logo">
+        <h1 class="header_title">Erika's Portfolio Website</h1>
+    </header>
+
+    <nav class="nav_bar">
+        <ul class="nav_list">
+            <li class="nav_item"><a href="#">Home</a></li>
+            <li class="nav_item"><a href="#">About Me</a></li>
+            <li class="nav_item"><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+
+   <main>
+       <section class="content">
+            <article class="intro">
+                <img class="profile_img" src="images/profile.jpg" alt="Profile Image" style="max-width:460px;max-height:308px;">
+                <h2>Hello World!</h2>
+                <p>My name is Erika Yoon, a recent UCLA graduate with a degree in psychobiology and a growing interest
+                    in prosthetics and devices using 
+                    <!--opens link in a new tab-->
+                    <a href="https://www.scientificamerican.com/article/how-far-away-mind-machine-integration/" target="_blank">
+                        Brain-Computer Interface (BCI)
+                        <!--icon for external link. see stylesheet in head of document-->
+                        <i class="fa fa-external-link"></i>
+                    </a>.  
+                </p>
+                <p>Recently, I've also become interested in front-end web development, and with the help and resources provided by 
+                    <a href="https://www.udacity.com/" target="_blank">Udacity's Front-End Web Developer Nanodegree Program</a>,
+                    I will be documenting my progress here! 
+                </p>
+            </article>
+
+            <section class="projects">
+                <article class="project1">
+                    <div class="description">
+                        <h2>Trading Card</h2>
+                        <p>Trading card created by applying basic HTML and CSS styling.</p>
+                    </div>
+                </article>
+
+                <article class="project2">
+                    <div class="description">
+                            <h2>Pixel Art Maker</h2>
+                            <p>Interactive application created with HTML, CSS and JavaScript.</p>
+                    </div>
+                </article>
+            </section>
+
+            <article class="contact"></article>
+       </section>
+
+       <footer>
+           <ul class="social_media">
+               <li>linkedin</li>
+               <li>codepen</li>
+               <li>github</li>
+           </ul>
+       </footer>
+   </main>
+</body>
+</html>
